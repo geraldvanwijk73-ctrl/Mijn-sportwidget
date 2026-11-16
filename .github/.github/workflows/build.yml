@@ -1,0 +1,14 @@
+name: Build Sportwidget
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Code ophalen
+        uses: actions/checkout@v4
+
+      - name: Xcode controleren
+        run: xcodebuild -version
