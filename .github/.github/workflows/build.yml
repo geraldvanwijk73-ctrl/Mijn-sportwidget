@@ -1,4 +1,4 @@
-name: Build Sportwidget
+name:.github/workflows/build.yml
 
 on:
   workflow_dispatch:
